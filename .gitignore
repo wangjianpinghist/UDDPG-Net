@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+
+# IDE
+.idea/
+.vscode/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Generated experiment data
+data/
+shap_results/
+*.npz
+*.npy
+*.h5
+*.pt
+*.pth
+*.ckpt
+
+# Generated figures / logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
